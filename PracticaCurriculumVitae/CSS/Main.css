@@ -1,0 +1,190 @@
+/*
+Índice (hacer CTRL + F, copiar sección y pegar)
+
+Initialization del css, importe de las fuentes, reseteo de propiedades y propiedades generales
+Propiedades de los DIV
+Propiedades específicas de los textos dentro de los div
+Propiedades de las imágenes
+Propiedades generales de los textos
+Propiedades de la lista
+Fin del css, agradecimientos
+
+*/
+
+
+/*-----Initialization del css, importe de las fuentes, reseteo de propiedades y propiedades generales-------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Maven+Pro&family=Open+Sans&family=Staatliches&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*::selection{
+    background: rgb(139, 21, 0);
+    color: white;
+    text-shadow: 1px 1px #000;
+}
+
+/*
+font-family: 'Great Vibes', cursive;
+font-family: 'Staatliches', cursive;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/*---------------------------Propiedades de los DIV--------------------------------------*/
+
+.wrapper{
+    margin-top:0px;
+    margin: 10px 10px;
+	height: 1200px;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    /*margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;*/
+}
+
+.parent{
+    border: 2px dashed black;
+    padding: 0px;
+    /*me gusto tanto ese bordecito que ahi va de nuevo JAJA XD*/
+    display: flex;
+}
+
+#narrow {
+    width: 30%;
+    /*Just so it's visible*/ 
+}
+
+#wide {
+    flex: 1;
+    padding-left: 10px;
+    /*Grow to rest of container*/
+}
+
+.parentCentered{
+    text-align: center;
+}
+
+
+/*------Propiedades específicas de los textos dentro de los div------*/
+
+.wrapper>h1{
+    padding-left: 10px;
+}
+
+.wrapper>p{
+    padding-left: 15px;
+}
+
+#narrow>img{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#wide>h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+#wide>h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.parentCentered>h1, h2, li, ul, p{
+    text-align: center;
+} 
+
+
+/*-------------------Propiedades de las imágenes----------------------*/
+
+#Juan1{
+    width: 150px;
+}
+
+#Juan2{
+    width: 197px;
+}
+
+
+/*----------------Propiedades generales de los textos-----------------------*/
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+/*----------------Propiedades de la lista---------------------------*/
+
+ul {
+    list-style: none; /* Quitamos los marcadores */
+    padding: 0; /* Quitamos el padding por defecto de la lista */
+    margin-left: 10px; /* Separamos la lista de la izquierda */
+}
+  
+li{
+    font-size: 30px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+span{
+    font-size: 30px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+li>span{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.icon-checkmark{
+    font-family: 'Open sans';
+}
+
+.icon-checkmark:before {
+    content: "\ea10";   
+    padding: 10px;
+    margin: 10px;
+}
+
+/*Fin del css, agradecimientos:
+
+le agradeco a mi perro ami comida que me esta esprando alli le agradeco a mi vida
+le agradeco al lol por dejarme jugar
+le agradeco a mi abuela por darme mesada
+le agradeco a yutu por ayudarme a entender las partes internas de la pc mejor que oscar
+le agradeco a la bida por esistir, si no esistiera no estaria bibo
+le agradeco al agradecimiento por permitirme reirme un rato de mi propia estupides lololool
+LE AGRTADECP A LA informatica por ser informatiac
+le agradeco a la programacion por aserme acostarme tarde y llorar duro porque lo que quiero hacer no sirve o no me sale XDDD
+
+
+Profe, si llegó a éste punto, no se tome esto en serio, era simplemente un descanso xDDdd
+yo ni siquiera escribo así en mi día a día
+
+
+en realidad escribo peor de ahi xDdDdDdDd
+
+*/
